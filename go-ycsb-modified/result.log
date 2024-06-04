@@ -1,0 +1,25 @@
+Now loading data using DB:  etcd
+core
+Using request distribution 'uniform' a keyrange of [0 9999]
+***************** properties *****************
+"etcd.endpoints"="192.168.37.11:2379"
+"dotransactions"="true"
+"operationcount"="10000"
+"scanproportion"="0"
+"readallfields"="true"
+"requestdistribution"="uniform"
+"updateproportion"="0.5"
+"docollectingdata"="false"
+"readproportion"="0.5"
+"etcd.dial_timeout"="1s"
+"command"="run"
+"workload"="core"
+"threadcount"="5"
+"recordcount"="10000"
+"insertproportion"="0"
+**********************************************
+**********************************************
+Run finished, takes 2.626245568s
+READ   - Takes(s): 2.6, Count: 5064, OPS: 1930.6, Avg(us): 1412, Min(us): 634, Max(us): 11143, 50th(us): 1349, 90th(us): 1774, 95th(us): 1927, 99th(us): 2525, 99.9th(us): 9815, 99.99th(us): 10575
+TOTAL  - Takes(s): 2.6, Count: 10000, OPS: 3813.1, Avg(us): 1295, Min(us): 555, Max(us): 12743, 50th(us): 1224, 90th(us): 1647, 95th(us): 1818, 99th(us): 2355, 99.9th(us): 9279, 99.99th(us): 11143
+UPDATE - Takes(s): 2.6, Count: 4936, OPS: 1882.5, Avg(us): 1176, Min(us): 555, Max(us): 12743, 50th(us): 1135, 90th(us): 1412, 95th(us): 1527, 99th(us): 1955, 99.9th(us): 7267, 99.99th(us): 12743

@@ -1,0 +1,26 @@
+Now loading data using DB:  etcd
+core
+Using request distribution 'latest' a keyrange of [0 59999]
+***************** properties *****************
+"workload"="core"
+"dotransactions"="false"
+"recordcount"="60000"
+"updateproportion"="0"
+"operationcount"="1000000"
+"readallfields"="true"
+"etcd.dial_timeout"="1s"
+"scanproportion"="0"
+"docollectingdata"="false"
+"etcd.endpoints"="192.168.37.12:2379"
+"threadcount"="5"
+"insertproportion"="0.05"
+"command"="load"
+"requestdistribution"="latest"
+"readproportion"="0.95"
+**********************************************
+INSERT - Takes(s): 10.0, Count: 55276, OPS: 5528.5, Avg(us): 875, Min(us): 390, Max(us): 9871, 50th(us): 810, 90th(us): 1102, 95th(us): 1286, 99th(us): 2807, 99.9th(us): 5159, 99.99th(us): 8879
+TOTAL  - Takes(s): 10.0, Count: 55276, OPS: 5528.7, Avg(us): 875, Min(us): 390, Max(us): 9871, 50th(us): 810, 90th(us): 1102, 95th(us): 1286, 99th(us): 2807, 99.9th(us): 5159, 99.99th(us): 8879
+**********************************************
+Run finished, takes 10.901177004s
+INSERT - Takes(s): 10.9, Count: 60000, OPS: 5505.2, Avg(us): 877, Min(us): 390, Max(us): 9871, 50th(us): 812, 90th(us): 1103, 95th(us): 1285, 99th(us): 2807, 99.9th(us): 5183, 99.99th(us): 8879
+TOTAL  - Takes(s): 10.9, Count: 60000, OPS: 5505.1, Avg(us): 877, Min(us): 390, Max(us): 9871, 50th(us): 812, 90th(us): 1103, 95th(us): 1285, 99th(us): 2807, 99.9th(us): 5183, 99.99th(us): 8879
